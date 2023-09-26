@@ -1,0 +1,76 @@
+#interface section#cont-in form{
+  padding-right: 20px;
+  float: left;
+  line-height: 15px;
+}
+#interface section#cont-in form h1{
+  font-size: 15px;
+  margin-top: 10px;
+}
+#interface section#cont-in section#liv{
+  width: 1120px;
+  height: 760px;
+  margin-left: 415px;
+  margin-top: -108px;
+  box-shadow: none;
+}
+#interface section#cont-in section#liv table{
+  border-collapse: collapse;
+  text-indent: 20px;
+}
+#interface section#cont-in section#liv h1{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#interface section#cont-in section#liv table#tabela-at tr#tit-at{
+  width: 400px;
+  height: 25px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: left;
+  font-size: 20px;
+  text-indent: 20px;
+  text-transform: uppercase;
+}
+#interface section#cont-in section#liv table#tabela-at tr#tit-at td#obra{
+  width: 190px;
+}
+
+#interface section#cont-in section#liv table#tabela-at tr td.obr-ger{
+  width: 2500px;
+}
+#interface section#cont-in section#liv table#tabela-at tr#tit-at th{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+#interface section#cont-in section#liv table#tabela-at tr th.qtde-op{
+  text-indent: 5px;
+}
+#interface section#cont-in section#liv table#tabela-at tr td.qtde-op{
+  width: 10px;
+}
+#interface section#cont-in section#liv table#tabela-at tr td.dis-op{
+  width: 450px;
+}
+#interface section#cont-in section#liv table#tabela-at tr td{
+  font-size: 10px;
+  width: 850px;
+  background-color: #d1d1d1;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  line-height: 19px;
+}
+#interface section#cont-in section#liv table#tabela-at tr td.ob-op{
+  width: 4000px;
+}
+#interface footer{
+  position: absolute;
+  top: 910px;
+  margin-left: -450px;
+  font-weight: bolder;
+}

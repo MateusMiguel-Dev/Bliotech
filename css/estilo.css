@@ -1,0 +1,231 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #d3d3d3;
+}
+#interface{
+  width: 1840px;
+  height: 1080px;
+  margin: 0px auto;
+  background-color: white;
+  margin: -20px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-bottom: 7px solid #344760;
+}
+#interface header{
+  width: 1840px;
+  background-color: white;
+  height: 81px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background-image: url("../img/colors.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#interface header img#logo{
+  width: 175px;
+  height: 65px;
+}
+#interface header figure#img-logo{
+  width: 215px;
+  height: 70px;
+  background-color: white;
+  padding-left: 0px;
+  margin-left: 0px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+#interface header nav#menu-sec{
+  position: absolute;
+  top: 25px;
+  margin-left: 1360px;
+  line-height: 11px;
+}
+#interface header nav#menu-sec a{
+  color: black;
+  margin-left: 20px;
+}
+#interface header nav#menu-sec a img#sair{
+  width: 30px;
+  height: 30px;
+  vertical-align: -10px;
+  margin-right: 5px;
+}
+#interface header nav#menu ul{
+  display: block;
+  list-style-type: none;
+  width: 189px;
+  height: 1000px;
+  background-color: #2d3745;
+  margin-top: -15px;
+  border-right: 7px solid #344760;
+
+}
+#interface header nav#menu a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+#interface header nav#menu li{
+  margin-left: -15px;
+  margin-top: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-left: -40px;
+  text-indent: 10px;
+  padding: 7px;
+  padding-bottom: 9px;
+}
+#interface header nav#menu li:hover{
+  background-color: #344760;
+
+}
+#interface header nav#menu a img{
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  margin-top: 5px;
+  line-height: 10px;
+  vertical-align: -3px;
+}
+#interface header nav#menu li#sel-pag{
+  background-color: #344760;
+}
+#interface section#cont-in{
+  margin-left: 280px;
+  margin-top: 30px;
+  position: relative;
+}
+#interface section#cont-in h1#apresent-in{
+  font-size: 30px;
+}
+#interface section#cont-in form input[type=text], input[type=password]{
+  width: 350px;
+  height: 35px;
+  outline: none;
+  padding-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+#interface section#cont-in form input[type=submit]{
+  width: 200px;
+  height: 35px;
+  outline: none;
+  padding-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+  background-color: #9C0303;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+#interface section#cont-in article.at-in{
+  width: 350px;
+  height: 175px;
+  background-image: url("../img/livro.jpg");
+  margin-top: 25px;
+  margin-left: 35px;
+  display: inline-block;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
+#interface section#cont-in article.at-in h1{
+  font-size: 50px;
+  margin-left: 30px;
+}
+#interface section#cont-in article.at-in h3{
+  font-size: 25px;
+  margin-left: 30px;
+  margin-top: -40px;
+}
+#interface section#cont-in article.at-in:hover{
+  transform: translateY(-20px);
+}
+#interface section#cont-in article#livros-at{
+  margin-left: 0px;
+}
+#interface section#cont-in article#usuario-at{
+  background-image: url("../img/user.png");
+}
+#interface section#cont-in article#empres-at{
+  background-image: url("../img/emprest.jpg");
+}
+#interface section#cont-in article#multas-at{
+  background-image: url("../img/multas.jpg");
+}
+#interface section#cont-in article.at-in h1.op{
+  font-size: 20px;
+  margin-bottom: -40px;
+}
+#interface section#cont-in article.at-in:hover h1.op{
+  color: black;
+}
+#interface section#cont-in section.ult-blio{
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: #d3d3d3;
+  padding-top: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+#interface section#cont-in section#ult-liv{
+width: 1520px;
+height: 550px;
+}
+#interface section#cont-in section#ult-liv h1{
+  font-size: 30px;
+  margin-left: 20px;
+}
+#interface section#cont-in section#ult-liv table{
+  border-collapse: collapse;
+  text-indent: 20px;
+}
+#interface section#cont-in section#ult-liv table#tabela-at tr#tit-at{
+  width: 400px;
+  height: 25px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: left;
+  font-size: 25px;
+  text-indent: 20px;
+  text-transform: uppercase;
+}
+#interface section#cont-in section#ult-liv table#tabela-at tr#tit-at td#obra{
+  width: 190px;
+}
+#interface section#cont-in section#ult-liv table#tabela-at tr#tit-at th{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+#interface section#cont-in section#ult-liv table#tabela-at tr td.obr-ger{
+  width: 2500px;
+}
+#interface section#cont-in section#ult-liv table#tabela-at tr td{
+  font-size: 20px;
+  width: 850px;
+  background-color: #d1d1d1;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  line-height: 20px;
+}
+#interface footer{
+  color: black;
+  text-decoration: none;
+  margin-top: 20px;
+}
+#interface footer a{
+  margin-left: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+#interface footer a:hover{
+  color: blue;
+}

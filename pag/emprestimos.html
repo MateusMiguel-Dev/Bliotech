@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Bliotech | Empréstimo</title>
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+    <link rel="stylesheet" href="../css/estilo-l.css" type="text/css">
+  </head>
+  <body>
+    <div id="interface">
+      <header id="cabecalho">
+        <figure id="img-logo">
+          <img id="logo"src="../img/logo.png" alt="Bliotech">
+        </figure>
+        <nav id="menu-sec">
+          <a href="login.html"><img id="sair" src="../img/sair-2.png" alt="">Voltar</a>
+          <a href="ajuda.html">Ajuda e Suporte</a>
+          <a href="contato.html">Contato</a>
+        </nav>
+        <nav id="menu">
+          <ul>
+            <a href="../index.html"><li><img src="../img/icons/home.png">Início</li></a>
+            <a href="livros.html"><li><img src="../img/icons/livro.png">Livros</li></a>
+            <a href="usuarios.html"><li><img src="../img/icons/usuario.png">Usuários</li></a>
+            <a href="emprestimos.html"><li id="sel-pag"><img src="../img/icons/empres.png">Empréstimo</li></a>
+            <a href="multas.html"><li><img src="../img/icons/multa.png">Multas</li></a>
+            <a href="devolucao.html"><li><img src="../img/icons/devol.png">Devolução</li></a>
+            <a href="../login.html"><li><img src="../img/icons/sair.png">Sair</li></a>
+          </ul>
+        </nav>
+      </header>
+      <section id="cont-in">
+        <h1 id="apresent-in">Empréstimos</h1>
+        <form class="pes-liv" method="post">
+          <input type="text" placeholder="Pesquise no Acervo:">
+        </form><br><br>
+        <h1>Novo Empréstimo:</h1>
+        <form class="cad-liv" method="post">
+          <h1>Nome da Obra</h1><input type="text" id="autor" name="Nome" maxlength="50">
+          <h1>Código da Obra</h1><input type="text" name="CPF"><br>
+          <h1>Nome do Usuário</h1><input type="text" name="Páginas">
+          <h1>Senha</h1><input type="password" name="senha">
+          <h1>Confirmar Senha</h1> <input type="password" name="Senha">
+          <br>
+          <input type="submit" value="Cadastrar">
+        </form>
+        <section id="liv" class="ult-blio">
+          <table id="tabela-at">
+            <h1>Empréstimos Recentes</h1>
+            <tr id="tit-at">
+              <th id="ob-op">Obra</th><th class="aut-op">Usuário</th><th class="pag-op">Data</th>
+            </tr>
+            <tr><td class="ob-op">Mateus Silva Miguel</td><td class="aut-op">miguelmateus285@gmail.com</td><td class="pag-op">(35) 999483349</td></tr>
+            <tr><td class="ob-op">Mateus Silva Miguel</td><td class="aut-op">miguelmateus285@gmail.com</td><td class="pag-op">(35) 999483349</td></tr>
+            <tr><td class="ob-op">Mateus Silva Miguel</td><td class="aut-op">miguelmateus285@gmail.com</td><td class="pag-op">(35) 999483349</td></tr>
+            <tr><td class="ob-op">Mateus Silva Miguel</td><td class="aut-op">miguelmateus285@gmail.com</td><td class="pag-op">(35) 999483349</td></tr>
+            <tr><td class="ob-op">Mateus Silva Miguel</td><td class="aut-op">miguelmateus285@gmail.com</td><td class="pag-op">(35) 999483349</td></tr>
+            <tr><td class="ob-op">Mateus Silva Miguel</td><td class="aut-op">miguelmateus285@gmail.com</td><td class="pag-op">(35) 999483349</td></tr>
+            <tr><td class="ob-op">Mateus Silva Miguel</td><td class="aut-op">miguelmateus285@gmail.com</td><td class="pag-op">(35) 999483349</td></tr>
+            <tr><td class="ob-op">Mateus Silva Miguel</td><td class="aut-op">miguelmateus285@gmail.com</td><td class="pag-op">(35) 999483349</td></tr>
+            <tr><td class="ob-op">Mateus Silva Miguel</td><td class="aut-op">miguelmateus285@gmail.com</td><td class="pag-op">(35) 999483349</td></tr>
+            <tr><td class="ob-op">Mateus Silva Miguel</td><td class="aut-op">miguelmateus285@gmail.com</td><td class="pag-op">(35) 999483349</td></tr>
+            <tr><td class="ob-op">Mateus Silva Miguel</td><td class="aut-op">miguelmateus285@gmail.com</td><td class="pag-op">(35) 999483349</td></tr>
+            <tr><td class="ob-op">Mateus Silva Miguel</td><td class="aut-op">miguelmateus285@gmail.com</td><td class="pag-op">(35) 999483349</td></tr>
+        </section>
+      </section>
+
+      <!-- <footer>
+        <a id="link-1" href="#interface">Topo</a>
+        <a id="link-2" href="suporte.html">Suporte</a>
+      </footer> -->
+    </div>
+
+  </body>
+</html>

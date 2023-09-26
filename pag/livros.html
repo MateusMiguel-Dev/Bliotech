@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Bliotech | Livro</title>
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+    <link rel="stylesheet" href="../css/estilo-l.css" type="text/css">
+  </head>
+  <body>
+    <div id="interface">
+      <header id="cabecalho">
+        <figure id="img-logo">
+          <img id="logo"src="../img/logo.png" alt="Bliotech">
+        </figure>
+        <nav id="menu-sec">
+          <a href="login.html"><img id="sair" src="../img/sair-2.png" alt="">Voltar</a>
+          <a href="ajuda.html">Ajuda e Suporte</a>
+          <a href="contato.html">Contato</a>
+        </nav>
+        <nav id="menu">
+          <ul>
+            <a href="../index.html"><li ><img src="../img/icons/home.png">Início</li></a>
+            <a href="livros.html"><li id="sel-pag"><img src="../img/icons/livro.png">Livros</li></a>
+            <a href="usuarios.html"><li><img src="../img/icons/usuario.png">Usuários</li></a>
+            <a href="emprestimos.html"><li><img src="../img/icons/empres.png">Empréstimo</li></a>
+            <a href="multas.html"><li><img src="../img/icons/multa.png">Multas</li></a>
+            <a href="devolucao.html"><li><img src="../img/icons/devol.png">Devolução</li></a>
+            <a href="../login.html"><li><img src="../img/icons/sair.png">Sair</li></a>
+          </ul>
+        </nav>
+      </header>
+      <section id="cont-in">
+        <h1 id="apresent-in">Livros</h1>
+        <form class="pes-liv" method="post">
+          <input type="text" placeholder="Pesquise no Acervo:">
+        </form><br><br>
+        <h1>Cadastrar Novo Livro:</h1>
+        <form class="cad-liv" method="post">
+          <h1>Nome da Obra</h1><input type="text" id="autor" name="Nome" maxlength="50">
+          <h1>Autor(es)</h1><input type="text" name="Autor" ><br>
+          <h1>N° de Páginas</h1> <input type="text" name="Páginas">
+          <h1>Editora</h1> <input type="text" name="Editora">
+          <h1>Gênero</h1> <input type="text" name="Gênero">
+          <h1>Ano de Publicação</h1> <input type="text" name="Publicação">
+          <h1>Quantidade</h1> <input type="text" name="Quantidade"><br>
+          <input type="submit" value="Cadastrar">
+        </form>
+        <section id="liv" class="ult-blio">
+          <table id="tabela-at">
+            <h1>Principais Livros no Acervo</h1>
+            <tr id="tit-at">
+              <th id="ob-op">Obra</th><th class="aut-op">Autor</th><th class="pag-op">Páginas</th><th class="gen-op">Gênero</th><th class="qtde-op">Qtde</th><th class="dis-op">Disponível</th><th class="cod-op">Código</th>
+            </tr>
+            <tr><td class="ob-op">Nome</td><td class="aut-op">Desconhecido</td><td class="pag-op">250</td><td class="gen-op">Aventura</td><td class="qtde-op">2</td><td class="dis-op">Sim</td><td>100</td></tr>
+            <tr><td class="ob-op">Nome</td><td class="aut-op">Desconhecido</td><td class="pag-op">250</td><td class="gen-op">Drama</td><td class="qtde-op">0</td><td class="dis-op">Não</td><td>99</td> </tr>
+            <tr><td class="ob-op">Nome</td><td class="aut-op">Desconhecido</td><td class="pag-op">250</td><td class="gen-op">Aventura</td><td class="qtde-op">2</td><td class="dis-op">Sim</td><td>100</td></tr>
+        </section>
+      </section>
+      <footer>
+        <a id="link-1" href="#interface">Topo</a>
+        <a id="link-2" href="suporte.html">Suporte</a>
+      </footer>
+    </div>
+
+  </body>
+</html>
